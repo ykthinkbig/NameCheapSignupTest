@@ -29,9 +29,9 @@ public class NamecheapSignupTests {
         driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_SignupUName")).sendKeys("xxxxx");
         driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_SignupPWord")).sendKeys("xxx");
         driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_ConfirmPassword")).sendKeys("xxxx");
-        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_FirstName")).sendKeys("xxxx");
-        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_LastName")).sendKeys("xxxx");
-        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_Email")).sendKeys("xxxx");
+        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_FirstName")).sendKeys("askme");
+        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_LastName")).sendKeys("askme");
+        driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_Email")).sendKeys("askme");
         driver.findElement(By.id("ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl02_CreateUserButton")).click();
         //quit broswer after test
         driver.quit();
